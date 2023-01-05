@@ -3,17 +3,19 @@
   margin: 0;
   font-family: 'Open Sans', sans-serif;
 }
+
 .text-primary {
   color: #FD6E0A;
 }
+
 #logo-style {
   color: #FD6E0A;
 }
 
 /* Header & Nav section */
-.header{
+.header {
   background: #FFF8F3;
-  background-image: url("../images/header_bg.png");
+  background-image: url("../images/header_bg.png"), url("/images/developer.png");
   background-repeat: no-repeat;
   background-position: bottom right, left;
 }
@@ -91,10 +93,63 @@ ul li a {
   color: #757575;
   margin-bottom: 20px;
 }
-.cnt{
+
+.cnt {
   background-color: white;
   color: #FD6E0A;
   border: 1px solid #FD6E0A;
   padding: 18px 24px;
   margin-left: 30px;
+}
+
+/* About section Start */
+
+.about-me {
+  text-align: center;
+  margin: auto;
+  margin-top: 130px;
+  width: 1140px;
+  height: 550px;
+  background: #FFF8F3;
+  border-radius: 10px;
+
+}
+
+.about-contant {
+  padding: 130px 157px;
+}
+
+.about-title {
+  padding-bottom: 30px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+}
+
+.about-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+}
+
+.about-into-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 130px;
+}
+
+.info-title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #757575;
+}
+
+.info-description {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #474747;
 }
