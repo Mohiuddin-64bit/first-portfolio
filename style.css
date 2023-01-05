@@ -274,10 +274,52 @@ ul li a {
   line-height: 28px;
   color: #757575;
 }
+
 /* Download CV button style */
-.under-resume{
+.under-resume {
   display: block;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 113px;
+}
+
+/* footer style */
+
+footer {
+  background-color: #FFF8F3;
+}
+
+.footer-contant {
+  width: 1140px;
+  margin: auto;
+  
+  display: flex;
+  padding-top: 130px;
+  gap: 117px;
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.footer-desc{
+  margin-bottom: 30px;
+}
+.input-name,
+.input-email,
+.text-area {
+  border: 0;
+  width: 461px;
+  height: 64px;
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+.text-area{
+  height: 180px;
 }
