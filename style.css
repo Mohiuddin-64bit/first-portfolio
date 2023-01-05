@@ -241,15 +241,17 @@ ul li a {
   color: #474747;
   margin-bottom: 30px;
 }
-  /* .resume-contant{
+
+/* .resume-contant{
     margin-bottom: 60px;
   } */
-.underline{
+.underline {
   border: 1px solid #D1D1D1;
   width: 545px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
 .resume-title {
   font-weight: 700;
   font-size: 25px;
@@ -271,5 +273,11 @@ ul li a {
   font-size: 16px;
   line-height: 28px;
   color: #757575;
-
+}
+/* Download CV button style */
+.under-resume{
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 113px;
 }
